@@ -3,19 +3,24 @@ using UnityEngine.InputSystem;
 
 public class Movement : MonoBehaviour
 {
+    //movement attributes
     public float thrust = 8f;
     public float rotationSpeed = 200f;
     public float maxSpeed = 10f;
 
     Rigidbody2D rb;
     PlayerInputActions inputActions;
+
     float rotateInput;
     bool thrusting;
+
+    private PlayerSkills playerSkills;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         inputActions = new PlayerInputActions();
+        playerSkills = new PlayerSkills();
     }
 
     void OnEnable()
@@ -42,5 +47,9 @@ public class Movement : MonoBehaviour
         var v = rb.linearVelocity;
         if (v.magnitude > maxSpeed)
             rb.linearVelocity = v.normalized * maxSpeed;
+    }
+
+    public bool canUseShooting1(){
+        return playerSkills.IsSkillUnlocked(PlayerSkills.SkillType.Shooting1);
     }
 }

@@ -1,0 +1,3042 @@
+fileFormatVersion: 2
+guid: 79788e4d5b7534f30a071e1fe9c40478
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8063460933723396871
+    second: speed1_0
+  - first:
+      213: -7939033677648572700
+    second: speed1_1
+  - first:
+      213: -3910967164625252196
+    second: speed1_2
+  - first:
+      213: 5957718151547462419
+    second: speed1_3
+  - first:
+      213: -2304264403110792898
+    second: speed1_4
+  - first:
+      213: 1479197928046694036
+    second: speed1_5
+  - first:
+      213: 751432350851372137
+    second: speed1_6
+  - first:
+      213: -65739029614273795
+    second: speed1_7
+  - first:
+      213: -1537661663622531736
+    second: speed1_8
+  - first:
+      213: -6257115123450633767
+    second: speed1_9
+  - first:
+      213: -8941434224943873176
+    second: speed1_10
+  - first:
+      213: 861024310904803071
+    second: speed1_11
+  - first:
+      213: 6895811892479667248
+    second: speed1_12
+  - first:
+      213: -674586010663536538
+    second: speed1_13
+  - first:
+      213: 5836877737664119628
+    second: speed1_14
+  - first:
+      213: -6947055061152800431
+    second: speed1_15
+  - first:
+      213: 167586220507410666
+    second: speed1_16
+  - first:
+      213: 7028828541115686180
+    second: speed1_17
+  - first:
+      213: 3642930566945899737
+    second: speed1_18
+  - first:
+      213: -7516121798723032825
+    second: speed1_19
+  - first:
+      213: -3584342385069956364
+    second: speed1_20
+  - first:
+      213: -6818384736885901988
+    second: speed1_21
+  - first:
+      213: -2897309487105575395
+    second: speed1_22
+  - first:
+      213: -312042458620482490
+    second: speed1_23
+  - first:
+      213: 919332651372384944
+    second: speed1_24
+  - first:
+      213: 5297329277007011249
+    second: speed1_25
+  - first:
+      213: 5585449603062653037
+    second: speed1_26
+  - first:
+      213: -7978231489698294772
+    second: speed1_27
+  - first:
+      213: 499581212555742812
+    second: speed1_28
+  - first:
+      213: -9016559472624654395
+    second: speed1_29
+  - first:
+      213: -3719254328249792531
+    second: speed1_30
+  - first:
+      213: 99856057078797296
+    second: speed1_31
+  - first:
+      213: -229594387204306607
+    second: speed1_32
+  - first:
+      213: 7237114109557682960
+    second: speed1_33
+  - first:
+      213: 7019815422064930192
+    second: speed1_34
+  - first:
+      213: 2414251287025557180
+    second: speed1_35
+  - first:
+      213: -392918515076533631
+    second: speed1_36
+  - first:
+      213: -13520987489021527
+    second: speed1_37
+  - first:
+      213: 894672311384376004
+    second: speed1_38
+  - first:
+      213: -7005924196537105575
+    second: speed1_39
+  - first:
+      213: -7534647485609996598
+    second: speed1_40
+  - first:
+      213: -1208074480425424333
+    second: speed1_41
+  - first:
+      213: -1588351790293204680
+    second: speed1_42
+  - first:
+      213: -8983164986423778215
+    second: speed1_43
+  - first:
+      213: 8476001915879208555
+    second: speed1_44
+  - first:
+      213: 4566700929494468904
+    second: speed1_45
+  - first:
+      213: -2203148911446367891
+    second: speed1_46
+  - first:
+      213: -6968942517721688391
+    second: speed1_47
+  - first:
+      213: -4731424217805951206
+    second: speed1_48
+  - first:
+      213: 4438994372592215899
+    second: speed1_49
+  - first:
+      213: 3446509449587547653
+    second: speed1_50
+  - first:
+      213: 6294446127830782167
+    second: speed1_51
+  - first:
+      213: -5397456346801383329
+    second: speed1_52
+  - first:
+      213: 2366076757233340462
+    second: speed1_53
+  - first:
+      213: -5306211402163039103
+    second: speed1_54
+  - first:
+      213: -9203724697712151884
+    second: speed1_55
+  - first:
+      213: -8141250203787620647
+    second: speed1_56
+  - first:
+      213: -6799911023497625627
+    second: speed1_57
+  - first:
+      213: 5168508808789331784
+    second: speed1_58
+  - first:
+      213: 7598403847197100783
+    second: speed1_59
+  - first:
+      213: 2676911978232638278
+    second: speed1_60
+  - first:
+      213: -8833578997335151400
+    second: speed1_61
+  - first:
+      213: 7033260716587315879
+    second: speed1_62
+  - first:
+      213: -2036756689550870394
+    second: speed1_63
+  - first:
+      213: 3970845727594873977
+    second: speed1_64
+  - first:
+      213: -4789891212674249775
+    second: speed1_65
+  - first:
+      213: -5087425289930782906
+    second: speed1_66
+  - first:
+      213: 2879153223791757526
+    second: speed1_67
+  - first:
+      213: -3126383054476485612
+    second: speed1_68
+  - first:
+      213: -1726833425691627615
+    second: speed1_69
+  - first:
+      213: -2398281083037268824
+    second: speed1_70
+  - first:
+      213: 1031327434682341859
+    second: speed1_71
+  - first:
+      213: -995714490192973325
+    second: speed1_72
+  - first:
+      213: 380603642906145286
+    second: speed1_73
+  - first:
+      213: 6735429903534633637
+    second: speed1_74
+  - first:
+      213: -4871106428229489715
+    second: speed1_75
+  - first:
+      213: -287361322444467667
+    second: speed1_76
+  - first:
+      213: -9011027520116814529
+    second: speed1_77
+  - first:
+      213: -4526776878625545284
+    second: speed1_78
+  - first:
+      213: 2072997626718917367
+    second: speed1_79
+  - first:
+      213: 4029906031130710609
+    second: speed1_80
+  - first:
+      213: -3867049494549168927
+    second: speed1_81
+  - first:
+      213: 5713466544623680417
+    second: speed1_82
+  - first:
+      213: 7975470304040983488
+    second: speed1_83
+  - first:
+      213: 8009995706942383552
+    second: speed1_84
+  - first:
+      213: 34635500170355000
+    second: speed1_85
+  - first:
+      213: -4111318766111848273
+    second: speed1_86
+  - first:
+      213: 2469316679048841415
+    second: speed1_87
+  - first:
+      213: 4850139032370648101
+    second: speed1_88
+  - first:
+      213: 8101618495350344795
+    second: speed1_89
+  - first:
+      213: -7608668526308295757
+    second: speed1_90
+  - first:
+      213: -434702376562170871
+    second: speed1_91
+  - first:
+      213: 297533948563752091
+    second: speed1_92
+  - first:
+      213: -8805719654768651779
+    second: speed1_93
+  - first:
+      213: -7840211187992631704
+    second: speed1_94
+  - first:
+      213: 6248515043238767997
+    second: speed1_95
+  - first:
+      213: 1378885621918111282
+    second: speed1_96
+  - first:
+      213: -8920877238099704038
+    second: speed1_97
+  - first:
+      213: 5348906203854257193
+    second: speed1_98
+  - first:
+      213: 6391816329478501630
+    second: speed1_99
+  - first:
+      213: -131811797951007966
+    second: speed1_100
+  - first:
+      213: 3363669716812849468
+    second: speed1_101
+  - first:
+      213: -4214944922833352452
+    second: speed1_102
+  - first:
+      213: 6883029963476179263
+    second: speed1_103
+  - first:
+      213: 7742678400516091165
+    second: speed1_104
+  - first:
+      213: -3142120316108417981
+    second: speed1_105
+  - first:
+      213: -8606340849110696397
+    second: speed1_106
+  - first:
+      213: -7179789917914270881
+    second: speed1_107
+  - first:
+      213: 6105623362047104352
+    second: speed1_108
+  - first:
+      213: -7873591600206172773
+    second: speed1_109
+  - first:
+      213: 8016359364208205057
+    second: speed1_110
+  - first:
+      213: 7841617054694343197
+    second: speed1_111
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: speed1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 677
+        width: 507
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f46d29b005d81090800000000000000
+      internalID: -8063460933723396871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 827
+        width: 181
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eec4e7dee2e2d190800000000000000
+      internalID: -7939033677648572700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_2
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 749
+        width: 180
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c909b40c51479b9c0800000000000000
+      internalID: -3910967164625252196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_3
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 774
+        width: 127
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31322eee7111ea250800000000000000
+      internalID: 5957718151547462419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_4
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 977
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31f000ebbb9500e0800000000000000
+      internalID: -2304264403110792898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_5
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 879
+        width: 39
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e87bdadaa278410800000000000000
+      internalID: 1479197928046694036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_6
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 797
+        width: 48
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9649b39edbf9d6a00800000000000000
+      internalID: 751432350851372137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_7
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 757
+        width: 28
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa56fb63b2761ff0800000000000000
+      internalID: -65739029614273795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_8
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 770
+        width: 168
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865fa032dd029aae0800000000000000
+      internalID: -1537661663622531736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_9
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 753
+        width: 244
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1200462f24a29a0800000000000000
+      internalID: -6257115123450633767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_10
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 763
+        width: 373
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86343b732f4a9e380800000000000000
+      internalID: -8941434224943873176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_11
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 874
+        width: 182
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffec4728c09f2fb00800000000000000
+      internalID: 861024310904803071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_12
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1017
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c2a217168d2bf50800000000000000
+      internalID: 6895811892479667248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_13
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 1018
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668b3ffe89363a6f0800000000000000
+      internalID: -674586010663536538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_14
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 1009
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c430bd69061c00150800000000000000
+      internalID: 5836877737664119628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_15
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1013
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15168ec9a3a179f90800000000000000
+      internalID: -6947055061152800431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_16
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 956
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0389697c2635200800000000000000
+      internalID: 167586220507410666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_17
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 903
+        width: 16
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42dd35c515a6b8160800000000000000
+      internalID: 7028828541115686180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_18
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 739
+        width: 46
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d40930bc0a4e8230800000000000000
+      internalID: 3642930566945899737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_19
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 948
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7092b82db0f51b790800000000000000
+      internalID: -7516121798723032825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_20
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 838
+        width: 62
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f26788679bd14ec0800000000000000
+      internalID: -3584342385069956364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_21
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 875
+        width: 204
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5578f7053b3061a0800000000000000
+      internalID: -6818384736885901988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_22
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 856
+        width: 35
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16f3b04f50bac7d0800000000000000
+      internalID: -2897309487105575395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_23
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 916
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c261389076babf0800000000000000
+      internalID: -312042458620482490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_24
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 936
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b21873fc2022cc00800000000000000
+      internalID: 919332651372384944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_25
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 909
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd974639e4e38940800000000000000
+      internalID: 5297329277007011249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_26
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 760
+        width: 302
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60656d22d0838d40800000000000000
+      internalID: 5585449603062653037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_27
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 863
+        width: 9
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0492b80bb0a74190800000000000000
+      internalID: -7978231489698294772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_28
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 895
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e08d6477edee600800000000000000
+      internalID: 499581212555742812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_29
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 701
+        width: 401
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c726027eeebed280800000000000000
+      internalID: -9016559472624654395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_30
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 770
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de74657d4ed826cc0800000000000000
+      internalID: -3719254328249792531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_31
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 754
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f35ada0e82c26100800000000000000
+      internalID: 99856057078797296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_32
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 779
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159834c0f1150dcf0800000000000000
+      internalID: -229594387204306607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_33
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 732
+        width: 154
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013372350f46f6460800000000000000
+      internalID: 7237114109557682960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_34
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 687
+        width: 267
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d2dfc0fe46b6160800000000000000
+      internalID: 7019815422064930192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_35
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 748
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe10b911c4218120800000000000000
+      internalID: 2414251287025557180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_36
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 743
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182703b31b21c8af0800000000000000
+      internalID: -392918515076533631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 619
+        width: 352
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a154b7cbb6ffcff0800000000000000
+      internalID: -13520987489021527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 563
+        width: 437
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2817e1ab38a6c00800000000000000
+      internalID: 894672311384376004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_39
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 595
+        width: 456
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953871eef05f5ce90800000000000000
+      internalID: -7005924196537105575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_40
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 565
+        width: 389
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace0d68380e8f6790800000000000000
+      internalID: -7534647485609996598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 557
+        width: 139
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a270429ae0c3fe0800000000000000
+      internalID: -1208074480425424333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 530
+        width: 345
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831c731567a05f9e0800000000000000
+      internalID: -1588351790293204680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_43
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 556
+        width: 33
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954eb792a03655380800000000000000
+      internalID: -8983164986423778215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_44
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 556
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66b28fa5dec0a570800000000000000
+      internalID: 8476001915879208555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_45
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 556
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829c6f9cc4e206f30800000000000000
+      internalID: 4566700929494468904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_46
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 531
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6163f1ecb7dc61e0800000000000000
+      internalID: -2203148911446367891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_47
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 531
+        width: 171
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6151304b7594f90800000000000000
+      internalID: -6968942517721688391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_48
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 538
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1feef7fdba965eb0800000000000000
+      internalID: -4731424217805951206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_49
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 538
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b572152fcd97a9d30800000000000000
+      internalID: 4438994372592215899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_50
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 536
+        width: 142
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e51b1851674df20800000000000000
+      internalID: 3446509449587547653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_51
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 530
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0df23676d5a5750800000000000000
+      internalID: 6294446127830782167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 498
+        width: 73
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58d93eac026815b0800000000000000
+      internalID: -5397456346801383329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 469
+        width: 304
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e209332564ef5d020800000000000000
+      internalID: 2366076757233340462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_54
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 502
+        width: 273
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184d1fed7dc8c56b0800000000000000
+      internalID: -5306211402163039103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_55
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 499
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2b06e962dc54080800000000000000
+      internalID: -9203724697712151884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_56
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 478
+        width: 308
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de89a7e218740f80800000000000000
+      internalID: -8141250203787620647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 410
+        width: 399
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef392c93fcd1a1a0800000000000000
+      internalID: -6799911023497625627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_58
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 472
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f8d5ea06b3ab740800000000000000
+      internalID: 5168508808789331784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_59
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 392
+        width: 435
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea052c7a04f27960800000000000000
+      internalID: 7598403847197100783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_60
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 458
+        width: 219
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b6b85e24d462520800000000000000
+      internalID: 2676911978232638278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_61
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 473
+        width: 109
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcac7844b2d86580800000000000000
+      internalID: -8833578997335151400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 445
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a275e0ab592b9160800000000000000
+      internalID: 7033260716587315879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_63
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 396
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6887b61059cfbb3e0800000000000000
+      internalID: -2036756689550870394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_64
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 395
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9748b2b96274b1730800000000000000
+      internalID: 3970845727594873977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_65
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 404
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db49cbe153e68db0800000000000000
+      internalID: -4789891212674249775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_66
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 357
+        width: 226
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647465437a5d569b0800000000000000
+      internalID: -5087425289930782906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_67
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 367
+        width: 77
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d847064a9ec4f720800000000000000
+      internalID: 2879153223791757526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_68
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 387
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cd02e1d2bdc94d0800000000000000
+      internalID: -3126383054476485612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_69
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 243
+        width: 428
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af2163062e0908e0800000000000000
+      internalID: -1726833425691627615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_70
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 389
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a44606cf0897bed0800000000000000
+      internalID: -2398281083037268824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_71
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 363
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e91b5f66d2005e00800000000000000
+      internalID: 1031327434682341859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_72
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 344
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1b65a52f28e22f0800000000000000
+      internalID: -995714490192973325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 469
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602f3a72ffc284500800000000000000
+      internalID: 380603642906145286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_74
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 344
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2b9b9bfcd097d50800000000000000
+      internalID: 6735429903534633637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_75
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 307
+        width: 85
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb6242038a566cb0800000000000000
+      internalID: -4871106428229489715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_76
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 0
+        width: 341
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22d2855666130cf0800000000000000
+      internalID: -287361322444467667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_77
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 225
+        width: 103
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d0b22863662f280800000000000000
+      internalID: -9011027520116814529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_78
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 315
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3a21ca968ad21c0800000000000000
+      internalID: -4526776878625545284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_79
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 362
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f21fc8bb54c4cc10800000000000000
+      internalID: 2072997626718917367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_80
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 0
+        width: 91
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15210c71f2a1de730800000000000000
+      internalID: 4029906031130710609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_81
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 206
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ecfa8429fa755ac0800000000000000
+      internalID: -3867049494549168927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_82
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 0
+        width: 37
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab7f541d8f4a4f40800000000000000
+      internalID: 5713466544623680417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_83
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 227
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb1a055cff8eae60800000000000000
+      internalID: 7975470304040983488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_84
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 186
+        width: 9
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c564bc18a8392f60800000000000000
+      internalID: 8009995706942383552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_85
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 0
+        width: 82
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831a54ccdcc0b7000800000000000000
+      internalID: 34635500170355000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_86
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 0
+        width: 171
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8818b6d59a1f6c0800000000000000
+      internalID: -4111318766111848273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_87
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 147
+        width: 142
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c847a4cf66c44220800000000000000
+      internalID: 2469316679048841415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_88
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 0
+        width: 496
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52495b7b0c72f4340800000000000000
+      internalID: 4850139032370648101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_89
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 30
+        width: 403
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c8719e81bbe6070800000000000000
+      internalID: 8101618495350344795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_90
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 162
+        width: 279
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bbf2bba944986690800000000000000
+      internalID: -7608668526308295757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_91
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 46
+        width: 21
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9046efddd70a7f9f0800000000000000
+      internalID: -434702376562170871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_92
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 200
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9403c0cc8d012400800000000000000
+      internalID: 297533948563752091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_93
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 0
+        width: 33
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1d6d1f0accbc580800000000000000
+      internalID: -8805719654768651779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_94
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 189
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866e7a7b679f13390800000000000000
+      internalID: -7840211187992631704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_95
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 180
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d6ee5635f27b650800000000000000
+      internalID: 6248515043238767997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_96
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 0
+        width: 85
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2369250ea29c22310800000000000000
+      internalID: 1378885621918111282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_97
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 0
+        width: 71
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a170332ba6da23480800000000000000
+      internalID: -8920877238099704038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_98
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 144
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92cbd994ad12b3a40800000000000000
+      internalID: 5348906203854257193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_99
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 17
+        width: 16
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef47b1c161b44b850800000000000000
+      internalID: 6391816329478501630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_100
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 137
+        width: 11
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223bced3ed5bb2ef0800000000000000
+      internalID: -131811797951007966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_101
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 0
+        width: 73
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c316e5439c72eae20800000000000000
+      internalID: 3363669716812849468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_102
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 0
+        width: 108
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf88ea6ace18185c0800000000000000
+      internalID: -4214944922833352452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_103
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 0
+        width: 192
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f391e5fa84f658f50800000000000000
+      internalID: 6883029963476179263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_104
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 105
+        width: 11
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1de9d89bf4837b60800000000000000
+      internalID: 7742678400516091165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_105
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 25
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344d1dc5832f464d0800000000000000
+      internalID: -3142120316108417981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_106
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 73
+        width: 7
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33eb2d89892209880800000000000000
+      internalID: -8606340849110696397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_107
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 12
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53f9cc1c134c5c90800000000000000
+      internalID: -7179789917914270881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_108
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 5
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065d42b49188bb450800000000000000
+      internalID: 6105623362047104352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_109
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 8
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d263bd7226bb290800000000000000
+      internalID: -7873591600206172773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_110
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 22
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d91878e54df3f60800000000000000
+      internalID: 8016359364208205057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed1_111
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1283b12a2503dc60800000000000000
+      internalID: 7841617054694343197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      speed1_0: -8063460933723396871
+      speed1_1: -7939033677648572700
+      speed1_10: -8941434224943873176
+      speed1_100: -131811797951007966
+      speed1_101: 3363669716812849468
+      speed1_102: -4214944922833352452
+      speed1_103: 6883029963476179263
+      speed1_104: 7742678400516091165
+      speed1_105: -3142120316108417981
+      speed1_106: -8606340849110696397
+      speed1_107: -7179789917914270881
+      speed1_108: 6105623362047104352
+      speed1_109: -7873591600206172773
+      speed1_11: 861024310904803071
+      speed1_110: 8016359364208205057
+      speed1_111: 7841617054694343197
+      speed1_12: 6895811892479667248
+      speed1_13: -674586010663536538
+      speed1_14: 5836877737664119628
+      speed1_15: -6947055061152800431
+      speed1_16: 167586220507410666
+      speed1_17: 7028828541115686180
+      speed1_18: 3642930566945899737
+      speed1_19: -7516121798723032825
+      speed1_2: -3910967164625252196
+      speed1_20: -3584342385069956364
+      speed1_21: -6818384736885901988
+      speed1_22: -2897309487105575395
+      speed1_23: -312042458620482490
+      speed1_24: 919332651372384944
+      speed1_25: 5297329277007011249
+      speed1_26: 5585449603062653037
+      speed1_27: -7978231489698294772
+      speed1_28: 499581212555742812
+      speed1_29: -9016559472624654395
+      speed1_3: 5957718151547462419
+      speed1_30: -3719254328249792531
+      speed1_31: 99856057078797296
+      speed1_32: -229594387204306607
+      speed1_33: 7237114109557682960
+      speed1_34: 7019815422064930192
+      speed1_35: 2414251287025557180
+      speed1_36: -392918515076533631
+      speed1_37: -13520987489021527
+      speed1_38: 894672311384376004
+      speed1_39: -7005924196537105575
+      speed1_4: -2304264403110792898
+      speed1_40: -7534647485609996598
+      speed1_41: -1208074480425424333
+      speed1_42: -1588351790293204680
+      speed1_43: -8983164986423778215
+      speed1_44: 8476001915879208555
+      speed1_45: 4566700929494468904
+      speed1_46: -2203148911446367891
+      speed1_47: -6968942517721688391
+      speed1_48: -4731424217805951206
+      speed1_49: 4438994372592215899
+      speed1_5: 1479197928046694036
+      speed1_50: 3446509449587547653
+      speed1_51: 6294446127830782167
+      speed1_52: -5397456346801383329
+      speed1_53: 2366076757233340462
+      speed1_54: -5306211402163039103
+      speed1_55: -9203724697712151884
+      speed1_56: -8141250203787620647
+      speed1_57: -6799911023497625627
+      speed1_58: 5168508808789331784
+      speed1_59: 7598403847197100783
+      speed1_6: 751432350851372137
+      speed1_60: 2676911978232638278
+      speed1_61: -8833578997335151400
+      speed1_62: 7033260716587315879
+      speed1_63: -2036756689550870394
+      speed1_64: 3970845727594873977
+      speed1_65: -4789891212674249775
+      speed1_66: -5087425289930782906
+      speed1_67: 2879153223791757526
+      speed1_68: -3126383054476485612
+      speed1_69: -1726833425691627615
+      speed1_7: -65739029614273795
+      speed1_70: -2398281083037268824
+      speed1_71: 1031327434682341859
+      speed1_72: -995714490192973325
+      speed1_73: 380603642906145286
+      speed1_74: 6735429903534633637
+      speed1_75: -4871106428229489715
+      speed1_76: -287361322444467667
+      speed1_77: -9011027520116814529
+      speed1_78: -4526776878625545284
+      speed1_79: 2072997626718917367
+      speed1_8: -1537661663622531736
+      speed1_80: 4029906031130710609
+      speed1_81: -3867049494549168927
+      speed1_82: 5713466544623680417
+      speed1_83: 7975470304040983488
+      speed1_84: 8009995706942383552
+      speed1_85: 34635500170355000
+      speed1_86: -4111318766111848273
+      speed1_87: 2469316679048841415
+      speed1_88: 4850139032370648101
+      speed1_89: 8101618495350344795
+      speed1_9: -6257115123450633767
+      speed1_90: -7608668526308295757
+      speed1_91: -434702376562170871
+      speed1_92: 297533948563752091
+      speed1_93: -8805719654768651779
+      speed1_94: -7840211187992631704
+      speed1_95: 6248515043238767997
+      speed1_96: 1378885621918111282
+      speed1_97: -8920877238099704038
+      speed1_98: 5348906203854257193
+      speed1_99: 6391816329478501630
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

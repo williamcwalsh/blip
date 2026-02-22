@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6736000999541769708}
   - component: {fileID: 9036017032589358480}
   - component: {fileID: 5046611064028079438}
+  - component: {fileID: 2866301131684112986}
   m_Layer: 0
   m_Name: NewAsteroid
   m_TagString: Untagged
@@ -270,3 +271,15 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!114 &2866301131684112986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7749765336049436907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bbe9128480d344d1ba7525ca7d074f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
