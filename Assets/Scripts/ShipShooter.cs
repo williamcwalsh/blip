@@ -4,9 +4,17 @@ using UnityEngine.InputSystem;
 public class ShipShooter : MonoBehaviour
 {
     [SerializeField] GameObject bulletPrefab;
+
+    [Header("Base Gun")]
     [SerializeField] Transform firePoint;
+
+    [Header("Shooting1 Upgrade (alternate barrels)")]
+    [SerializeField] Transform firePointLeft;
+    [SerializeField] Transform firePointRight;
+
     [SerializeField] float bulletSpeed = 18f;
     [SerializeField] float fireRate = 1f;
+    [SerializeField] Ship ship;
 
     Rigidbody2D rb;
     Collider2D shipCol;
@@ -14,6 +22,9 @@ public class ShipShooter : MonoBehaviour
     PlayerInputActions inputActions;
     bool firing;
     float nextShotTime;
+
+    bool hasShooting1;
+    bool shootLeftNext = true;
 
     void Awake()
     {
@@ -37,9 +48,26 @@ public class ShipShooter : MonoBehaviour
         inputActions.Disable();
     }
 
+    void Update()
+    {
+        hasShooting1 = ship != null && ship.canUseShooting1();
+        if (hasShooting1){
+            fireRate = 2.5f;
+        }
+
+        if (!firing) return;
+
+        if (Time.time >= nextShotTime)
+        {
+            Shoot();
+            nextShotTime = Time.time + 1f / fireRate;
+        }
+    }
+
     void OnShootPerformed(InputAction.CallbackContext ctx)
     {
         firing = true;
+        hasShooting1 = ship != null && ship.canUseShooting1();
 
         if (Time.time >= nextShotTime)
         {
@@ -53,24 +81,22 @@ public class ShipShooter : MonoBehaviour
         firing = false;
     }
 
-    void Update()
-    {
-        if (!firing) return;
-
-        if (Time.time >= nextShotTime)
-        {
-            Shoot();
-            nextShotTime = Time.time + 1f / fireRate;
-        }
-    }
-
     void Shoot()
     {
-        var b = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        Transform fp = firePoint;
+
+        if (hasShooting1 && firePointLeft != null && firePointRight != null)
+        {
+            Debug.Log("shooting1 enabled");
+            fp = shootLeftNext ? firePointLeft : firePointRight;
+            shootLeftNext = !shootLeftNext;
+        }
+
+        var b = Instantiate(bulletPrefab, fp.position, fp.rotation);
         var bRb = b.GetComponent<Rigidbody2D>();
 
         if (bRb != null)
-            bRb.linearVelocity = rb.linearVelocity + (Vector2)firePoint.up * bulletSpeed;
+            bRb.linearVelocity = rb.linearVelocity + (Vector2)fp.up * bulletSpeed;
 
         var bCol = b.GetComponent<Collider2D>();
         if (shipCol != null && bCol != null)

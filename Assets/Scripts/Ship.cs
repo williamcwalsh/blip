@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Movement : MonoBehaviour
+public class Ship : MonoBehaviour
 {
     //movement attributes
     public float thrust = 8f;
@@ -21,6 +21,10 @@ public class Movement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         inputActions = new PlayerInputActions();
         playerSkills = new PlayerSkills();
+    }
+
+    public PlayerSkills GetPlayerSkills(){
+        return playerSkills;
     }
 
     void OnEnable()
