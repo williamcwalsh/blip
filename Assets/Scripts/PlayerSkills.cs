@@ -10,6 +10,7 @@ public class PlayerSkills
         None,
         Shooting1,
         Engine1,
+        Engine2,
     }
     private List<SkillType> unlockedSkillTypeList;
 

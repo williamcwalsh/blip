@@ -4,13 +4,16 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-    [SerializeField] string menuSceneName = "MenuScene";
-
+    [SerializeField] private UISkillTree uiSkillTree;
+    public Ship ship;
     PlayerInputActions inputActions;
+    [SerializeField] private Canvas UI;
+    private bool showMenu;
 
     void Awake()
     {
         inputActions = new PlayerInputActions();
+        uiSkillTree.SetPlayerSkills(ship.GetPlayerSkills());
     }
 
     void OnEnable()
@@ -27,7 +30,14 @@ public class LevelManager : MonoBehaviour
 
     void OnEscapePressed(InputAction.CallbackContext ctx)
     {
-        SceneManager.LoadScene(menuSceneName);
+        if(!showMenu){
+            UI.gameObject.SetActive(true);  // show
+            Debug.Log("set true");
+            showMenu = true;
+        }else{
+            UI.gameObject.SetActive(false); // hide
+            showMenu=false;
+        }
     }
 
     public void loadLevel (string levelName){

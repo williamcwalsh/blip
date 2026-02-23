@@ -149,6 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   menuSceneName: MenuScene
+  uiSkillTree: {fileID: 828588205}
 --- !u!4 &117664410
 Transform:
   m_ObjectHideFlags: 0
@@ -1260,7 +1261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aadb3395d6d445aa825efe7b98c211e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Testing
-  ship: {fileID: 1368325529}
   uiSkillTree: {fileID: 828588205}
 --- !u!4 &1424101926
 Transform:

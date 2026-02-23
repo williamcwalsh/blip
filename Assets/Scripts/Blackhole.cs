@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class Blackhole : MonoBehaviour
 {
-    Transform ship;
+    public Ship ship;
     Rigidbody2D shipRb;
 
     public float influenceRange;
@@ -32,17 +32,13 @@ public class Blackhole : MonoBehaviour
 
     void BindShip()
     {
-        var shipObj = GameObject.FindGameObjectWithTag("Player");
-        if (shipObj == null)
+        if (ship == null)
         {
-            ship = null;
-            shipRb = null;
-            isShrinking = false;
-            return;
+            var shipObj = GameObject.FindGameObjectWithTag("Player");
+            ship = shipObj ? shipObj.GetComponent<Ship>() : null;
         }
 
-        ship = shipObj.transform;
-        shipRb = shipObj.GetComponent<Rigidbody2D>();
+        shipRb = ship ? ship.GetComponent<Rigidbody2D>() : null;
         isShrinking = false;
     }
 
@@ -50,24 +46,24 @@ public class Blackhole : MonoBehaviour
     {
         if (ship == null || shipRb == null) return;
 
-        float distanceToship = Vector2.Distance(transform.position, ship.position);
+        float distanceToShip = Vector2.Distance(transform.position, ship.transform.position);
 
-        if (distanceToship < influenceRange)
+        if (distanceToShip < influenceRange)
         {
-            Vector2 pullDir = ((Vector2)transform.position - (Vector2)ship.position).normalized;
-            float d = Mathf.Max(distanceToship, 0.05f);
+            Vector2 pullDir = ((Vector2)transform.position - (Vector2)ship.transform.position).normalized;
+            float d = Mathf.Max(distanceToShip, 0.05f);
             Vector2 pullForce = (pullDir * (intensity / d)) * 16f;
             shipRb.AddForce(pullForce, ForceMode2D.Force);
         }
 
         if (isShrinking)
         {
-            Vector3 s = ship.localScale;
+            Vector3 s = ship.transform.localScale;
             float k = 1f - shrinkRate * Time.fixedDeltaTime;
             k = Mathf.Clamp01(k);
-            ship.localScale = s * k;
+            ship.transform.localScale = s * k;
 
-            if (ship.localScale.x <= minshipScale)
+            if (ship.transform.localScale.x <= minshipScale)
             {
                 Destroy(ship.gameObject);
                 ship = null;
@@ -79,18 +75,18 @@ public class Blackhole : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (ship == null) return;
+        var hitShip = other.GetComponentInParent<Ship>();
+        if (hitShip == null) return;
 
-        if (other.CompareTag("Player"))
+        ship = hitShip;
+        shipRb = ship.GetComponent<Rigidbody2D>();
+
+        isShrinking = true;
+
+        if (shipRb != null)
         {
-            Debug.Log("ship entered black hole, shrinking...");
-            isShrinking = true;
-
-            if (shipRb != null)
-            {
-                shipRb.linearVelocity = Vector2.zero;
-                shipRb.angularVelocity = 0f;
-            }
+            shipRb.linearVelocity = Vector2.zero;
+            shipRb.angularVelocity = 0f;
         }
     }
 }

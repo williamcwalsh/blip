@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class Ship : MonoBehaviour
 {
@@ -9,9 +10,13 @@ public class Ship : MonoBehaviour
     public float rotationSpeed = 200f;
     public float maxSpeed = 10f;
 
+    public int money = 0;
+
     [Header("Ship Sprites")]
     [SerializeField] Sprite baseSprite;
     [SerializeField] Sprite shooting1Sprite;
+    [SerializeField] Sprite engine2Sprite;
+
 
     [Header("Engine Upgrade")]
     [SerializeField] Sprite flameSprite;
@@ -27,6 +32,7 @@ public class Ship : MonoBehaviour
     PlayerSkills playerSkills;
     bool lastShooting1State;
     bool lastEngine1State;
+    bool lastEngine2State;
 
     GameObject flameObject;
 
@@ -85,19 +91,25 @@ public class Ship : MonoBehaviour
     {
         bool shooting1 = canUseShooting1();
         bool engine1 = canUseEngine1();
+        bool engine2 = canUseEngine2();
 
         if (shooting1 != lastShooting1State)
         {
             sr.sprite = shooting1 ? shooting1Sprite : baseSprite;
             lastShooting1State = shooting1;
         }
+        if (engine2 != lastEngine2State)
+        {
+            sr.sprite = engine2 ? engine2Sprite : baseSprite;
+            lastEngine2State = engine2;
+        }
 
-        if (engine1 != lastEngine1State)
+        if (engine1 != lastEngine1State && !engine2)
         {
             if (engine1)
             {
-                thrust = 13f;
-                maxSpeed = 18f;
+                thrust = 11f;
+                maxSpeed = 14f;
             }
             else
             {
@@ -106,6 +118,12 @@ public class Ship : MonoBehaviour
             }
 
             lastEngine1State = engine1;
+        }
+
+        if(engine2 != lastEngine2State){
+            thrust = 15f;
+            maxSpeed=20f;
+            lastEngine2State = engine2;
         }
 
         if (flameObject != null)
@@ -132,5 +150,9 @@ public class Ship : MonoBehaviour
     public bool canUseEngine1()
     {
         return playerSkills.IsSkillUnlocked(PlayerSkills.SkillType.Engine1);
+    }
+    public bool canUseEngine2()
+    {
+        return playerSkills.IsSkillUnlocked(PlayerSkills.SkillType.Engine2);
     }
 }
