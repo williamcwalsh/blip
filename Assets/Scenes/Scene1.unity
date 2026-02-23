@@ -310,7 +310,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &519420029
 AudioListener:
   m_ObjectHideFlags: 0
@@ -523,7 +523,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &590776826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -929,7 +929,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &823646679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1413,13 +1413,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1833012522}
+  - component: {fileID: 1833012523}
   m_Layer: 0
   m_Name: CameraTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1833012522
 Transform:
   m_ObjectHideFlags: 0
@@ -1435,6 +1436,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1833012523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833012521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0bec0ade2a68454e83a9ca93a8078e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraMovement
+  target: {fileID: 7948973500706034472}
+  smoothTime: 0.15
 --- !u!1 &2061543374
 GameObject:
   m_ObjectHideFlags: 0
@@ -1650,6 +1665,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 3978265473581296807, guid: c9c04e66c80684489a0bfd20f5981655, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9077429299167564289, guid: c9c04e66c80684489a0bfd20f5981655, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1799,6 +1818,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ship1_0
       objectReference: {fileID: 0}
+    - target: {fileID: 1554207634837624480, guid: 6fb116454ba6046b9ab840b0483ad9c7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8762479270529532281, guid: 6fb116454ba6046b9ab840b0483ad9c7, type: 3}
       propertyPath: thrust
       value: 10
@@ -1843,16 +1866,21 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1458465215}
   m_SourcePrefab: {fileID: 100100000, guid: 6fb116454ba6046b9ab840b0483ad9c7, type: 3}
+--- !u!50 &7948973500706034472 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 5695967170911264129, guid: 6fb116454ba6046b9ab840b0483ad9c7, type: 3}
+  m_PrefabInstance: {fileID: 7948973500706034471}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
+  - {fileID: 823646680}
+  - {fileID: 1833012522}
   - {fileID: 619394802}
   - {fileID: 7948973500706034471}
   - {fileID: 590776828}
-  - {fileID: 823646680}
-  - {fileID: 1833012522}
   - {fileID: 4353898761893640362}
   - {fileID: 2061543376}
   - {fileID: 1346797822}

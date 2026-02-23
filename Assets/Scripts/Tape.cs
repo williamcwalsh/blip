@@ -1,26 +1,49 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Tape : MonoBehaviour
 {
-    public Transform ship;
-    Rigidbody2D shiprb;
+    Rigidbody2D shipRb;
 
-    public float slowMultiplier = 2.5f; 
+    [Range(0f, 1f)]
+    public float slowMultiplier = 0.4f;
 
-    void Start()
+    void OnEnable()
     {
-        shiprb = ship.GetComponent<Rigidbody2D>();
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        BindShip();
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        BindShip();
+    }
+
+    void BindShip()
+    {
+        var shipObj = GameObject.FindGameObjectWithTag("Player");
+        if (shipObj == null)
+        {
+            shipRb = null;
+            return;
+        }
+
+        shipRb = shipObj.GetComponent<Rigidbody2D>();
     }
 
     void OnTriggerStay2D(Collider2D other)
     {
-        if (ship != null && other.transform == ship)
+        if (shipRb == null) return;
+
+        if (other.CompareTag("Player"))
         {
-            if (shiprb != null)
-            {
-                shiprb.linearVelocity *= slowMultiplier;
-                shiprb.angularVelocity *= slowMultiplier;
-            }
+            shipRb.linearVelocity *= slowMultiplier;
+            shipRb.angularVelocity *= slowMultiplier;
         }
     }
 }

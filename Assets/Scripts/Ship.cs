@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class Ship : MonoBehaviour
 {
+    static Ship Instance;
 
     public float thrust = 8f;
     public float rotationSpeed = 200f;
@@ -31,6 +32,15 @@ public class Ship : MonoBehaviour
 
     void Awake()
     {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
         inputActions = new PlayerInputActions();
@@ -75,22 +85,31 @@ public class Ship : MonoBehaviour
     {
         bool shooting1 = canUseShooting1();
         bool engine1 = canUseEngine1();
+
         if (shooting1 != lastShooting1State)
         {
             sr.sprite = shooting1 ? shooting1Sprite : baseSprite;
             lastShooting1State = shooting1;
         }
 
-        if(engine1 != lastEngine1State){
-            thrust = 13;
-            maxSpeed = 18;
+        if (engine1 != lastEngine1State)
+        {
+            if (engine1)
+            {
+                thrust = 13f;
+                maxSpeed = 18f;
+            }
+            else
+            {
+                thrust = 8f;
+                maxSpeed = 10f;
+            }
+
             lastEngine1State = engine1;
-
         }
-        if (flameObject != null)
-            flameObject.SetActive(canUseEngine1() && thrusting);
-        
 
+        if (flameObject != null)
+            flameObject.SetActive(engine1 && thrusting);
     }
 
     void FixedUpdate()
