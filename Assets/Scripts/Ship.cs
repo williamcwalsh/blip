@@ -5,6 +5,7 @@ using TMPro;
 public class Ship : MonoBehaviour
 {
     static Ship Instance;
+    static readonly Vector3 ShipScale = new Vector3(0.35f, 0.35f, 1f);
 
     public float thrust = 8f;
     public float rotationSpeed = 200f;
@@ -16,7 +17,7 @@ public class Ship : MonoBehaviour
     [SerializeField] Sprite baseSprite;
     [SerializeField] Sprite shooting1Sprite;
     [SerializeField] Sprite engine2Sprite;
-
+    [SerializeField] Sprite engine2shoot2Sprite;
 
     [Header("Engine Upgrade")]
     [SerializeField] Sprite flameSprite;
@@ -46,6 +47,8 @@ public class Ship : MonoBehaviour
 
         Instance = this;
         DontDestroyOnLoad(gameObject);
+
+        transform.localScale = ShipScale;
 
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
@@ -98,9 +101,18 @@ public class Ship : MonoBehaviour
             sr.sprite = shooting1 ? shooting1Sprite : baseSprite;
             lastShooting1State = shooting1;
         }
+
         if (engine2 != lastEngine2State)
         {
-            sr.sprite = engine2 ? engine2Sprite : baseSprite;
+            if (!shooting1)
+            {
+                sr.sprite = engine2 ? engine2Sprite : baseSprite;
+            }
+            else
+            {
+                sr.sprite = engine2shoot2Sprite;
+            }
+
             lastEngine2State = engine2;
         }
 
@@ -120,14 +132,17 @@ public class Ship : MonoBehaviour
             lastEngine1State = engine1;
         }
 
-        if(engine2 != lastEngine2State){
+        if (engine2)
+        {
             thrust = 15f;
-            maxSpeed=20f;
-            lastEngine2State = engine2;
+            maxSpeed = 20f;
         }
 
         if (flameObject != null)
             flameObject.SetActive(engine1 && thrusting);
+
+        if (SoundManager.instance != null)
+            SoundManager.instance.SetEngineLoop(engine1 && thrusting);
     }
 
     void FixedUpdate()
@@ -142,6 +157,42 @@ public class Ship : MonoBehaviour
             rb.linearVelocity = v.normalized * maxSpeed;
     }
 
+    public void Respawn()
+    {
+        money = 0;
+        playerSkills.ResetSkills();
+
+        thrust = 8f;
+        maxSpeed = 10f;
+
+        rotateInput = 0f;
+        thrusting = false;
+
+        lastShooting1State = false;
+        lastEngine1State = false;
+        lastEngine2State = false;
+
+        sr.sprite = baseSprite;
+
+        if (flameObject != null)
+            flameObject.SetActive(false);
+
+        if (SoundManager.instance != null)
+            SoundManager.instance.SetEngineLoop(false);
+
+        transform.position = Vector3.zero;
+        transform.rotation = Quaternion.identity;
+        transform.localScale = ShipScale;
+
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.angularVelocity = 0f;
+            rb.Sleep();
+            rb.WakeUp();
+        }
+    }
+
     public bool canUseShooting1()
     {
         return playerSkills.IsSkillUnlocked(PlayerSkills.SkillType.Shooting1);
@@ -151,6 +202,7 @@ public class Ship : MonoBehaviour
     {
         return playerSkills.IsSkillUnlocked(PlayerSkills.SkillType.Engine1);
     }
+
     public bool canUseEngine2()
     {
         return playerSkills.IsSkillUnlocked(PlayerSkills.SkillType.Engine2);

@@ -25,4 +25,7 @@ public class PlayerSkills
     public bool IsSkillUnlocked(SkillType skillType){
         return unlockedSkillTypeList.Contains(skillType);
     }
+    public void ResetSkills(){
+        unlockedSkillTypeList.Clear();
+    }
 }

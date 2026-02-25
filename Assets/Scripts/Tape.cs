@@ -32,11 +32,9 @@ public class Tape : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D other)
     {
-        Debug.Log("entered");
         if (shipRb == null) return;
 
             shipRb.linearVelocity *= slowMultiplier;
-            // Debug.Log(shipRb.linearVelocity.ToString());
             shipRb.angularVelocity *= slowMultiplier;
     }
 }

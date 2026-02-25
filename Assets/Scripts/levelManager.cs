@@ -32,7 +32,6 @@ public class LevelManager : MonoBehaviour
     {
         if(!showMenu){
             UI.gameObject.SetActive(true);  // show
-            Debug.Log("set true");
             showMenu = true;
         }else{
             UI.gameObject.SetActive(false); // hide

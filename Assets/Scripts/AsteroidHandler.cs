@@ -9,20 +9,23 @@ public class AsteroidHandler : MonoBehaviour
     {
         var hitShip = collision.collider.GetComponentInParent<Ship>();
         if (hitShip == null) return;
+        SoundManager.instance.PlayDeathSound();
+        // Destroy(hitShip.gameObject);
+        hitShip.Respawn();
+        SoundManager.instance.SetEngineLoop(false);
 
-        Destroy(hitShip.gameObject);
     }
 
     public void TakeDamage(int amount)
     {
         hp -= amount;
+        SoundManager.instance.PlayHitSound();
 
         if (hp <= 0)
         {
             if (ship != null)
             {
                 ship.money += 1;
-                Debug.Log(ship.money);
             }
             SoundManager.instance.PlayAsteroidSound();
             Destroy(gameObject);

@@ -65,9 +65,9 @@ public class Blackhole : MonoBehaviour
 
             if (ship.transform.localScale.x <= minshipScale)
             {
-                Destroy(ship.gameObject);
-                ship = null;
-                shipRb = null;
+                SoundManager.instance.PlayDeathSound();
+                ship.Respawn();
+                SoundManager.instance.SetEngineLoop(false);
                 isShrinking = false;
             }
         }

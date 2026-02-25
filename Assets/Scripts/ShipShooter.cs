@@ -52,7 +52,7 @@ public class ShipShooter : MonoBehaviour
     {
         hasShooting1 = ship != null && ship.canUseShooting1();
         if (hasShooting1){
-            fireRate = 2.5f;
+            fireRate = 3.5f;
         }
 
         if (!firing) return;
@@ -84,10 +84,10 @@ public class ShipShooter : MonoBehaviour
     void Shoot()
     {
         Transform fp = firePoint;
+        SoundManager.instance.PlayShootSound();
 
         if (hasShooting1 && firePointLeft != null && firePointRight != null)
         {
-            Debug.Log("shooting1 enabled");
             fp = shootLeftNext ? firePointLeft : firePointRight;
             shootLeftNext = !shootLeftNext;
         }
