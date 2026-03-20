@@ -6307,7 +6307,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8762479270529532281, guid: 6fb116454ba6046b9ab840b0483ad9c7, type: 3}
       propertyPath: money
-      value: 0
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8762479270529532281, guid: 6fb116454ba6046b9ab840b0483ad9c7, type: 3}
       propertyPath: thrust
